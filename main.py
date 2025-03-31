@@ -26,6 +26,6 @@ print(len(deteccoes))
 
 for (x,y,w,h) in deteccoes:
     #print (x,y,w,h)
-    cv2.rectangle(imagem, (x,y), (x + w, y + h), (0, 0, 255), 4)
+    cv2.rectangle(imagem, (x,y), (x + w, y + h), (0, 255, 255), 4)
 cv2.imshow("Imagem", imagem)
 cv2.waitKey(0)
